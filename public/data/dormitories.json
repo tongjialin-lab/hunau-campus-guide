@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "湖南农业大学宿舍分布数据",
+    "description": "湖南农业大学各宿舍区位置、房型信息",
+    "version": "1.0.0"
+  },
+  "dormitories": [
+    {
+      "id": "dorm-fengze-1",
+      "name": "丰泽学生公寓 1 栋",
+      "area": "丰泽区",
+      "description": "丰泽学生公寓区，位于校园北侧，环境安静，4人间标准宿舍",
+      "roomType": "4人间",
+      "facilities": ["独立卫浴", "空调", "热水器", "便利店", "洗衣房"],
+      "position": { "lng": 113.082, "lat": 28.189, "x": 480, "y": 180 },
+      "nearbyCanteens": ["第二食堂"],
+      "featured": true
+    },
+    {
+      "id": "dorm-fengze-2",
+      "name": "丰泽学生公寓 2 栋",
+      "area": "丰泽区",
+      "description": "丰泽学生公寓区，4人间标准宿舍",
+      "roomType": "4人间",
+      "position": { "lng": 113.083, "lat": 28.189, "x": 520, "y": 175 },
+      "nearbyCanteens": ["第二食堂"],
+      "featured": false
+    },
+    {
+      "id": "dorm-fengze-3",
+      "name": "丰泽学生公寓 3 栋",
+      "area": "丰泽区",
+      "description": "丰泽学生公寓区，4人间标准宿舍",
+      "roomType": "4人间",
+      "position": { "lng": 113.084, "lat": 28.188, "x": 550, "y": 190 },
+      "nearbyCanteens": ["第二食堂"],
+      "featured": false
+    },
+    {
+      "id": "dorm-jinan-1",
+      "name": "金岸学生公寓 1 栋",
+      "area": "金岸区",
+      "description": "金岸学生公寓区，位于校园西侧，靠近西校门，生活便利",
+      "roomType": "4人间/6人间",
+      "position": { "lng": 113.078, "lat": 28.184, "x": 200, "y": 520 },
+      "nearbyCanteens": ["第一食堂"],
+      "featured": true
+    },
+    {
+      "id": "dorm-jinan-2",
+      "name": "金岸学生公寓 2 栋",
+      "area": "金岸区",
+      "description": "金岸学生公寓区，6人间宿舍",
+      "roomType": "6人间",
+      "position": { "lng": 113.077, "lat": 28.185, "x": 180, "y": 500 },
+      "nearbyCanteens": ["第一食堂"],
+      "featured": false
+    },
+    {
+      "id": "dorm-donghu-1",
+      "name": "东湖学生公寓 1 栋",
+      "area": "东湖区",
+      "description": "东湖学生公寓区，靠近东湖景观和运动场，风景优美",
+      "roomType": "4人间",
+      "position": { "lng": 113.086, "lat": 28.184, "x": 800, "y": 500 },
+      "nearbyCanteens": ["东湖食堂"],
+      "featured": true
+    },
+    {
+      "id": "dorm-donghu-2",
+      "name": "东湖学生公寓 2 栋",
+      "area": "东湖区",
+      "description": "东湖学生公寓区，部分为研究生宿舍",
+      "roomType": "研究生宿舍",
+      "position": { "lng": 113.087, "lat": 28.185, "x": 830, "y": 480 },
+      "nearbyCanteens": ["东湖食堂"],
+      "featured": false
+    },
+    {
+      "id": "dorm-zhiyuan",
+      "name": "芷兰学生公寓",
+      "area": "芷兰区",
+      "description": "芷兰学生公寓区，位于校园中心偏南位置，交通最便利",
+      "roomType": "4人间/6人间",
+      "position": { "lng": 113.081, "lat": 28.182, "x": 430, "y": 600 },
+      "nearbyCanteens": ["第一食堂"],
+      "featured": true
+    }
+  ]
+}

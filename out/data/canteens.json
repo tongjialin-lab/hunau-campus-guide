@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "湖南农业大学食堂分布数据",
+    "description": "湖南农业大学各食堂位置、特色菜品信息",
+    "version": "1.0.0"
+  },
+  "canteens": [
+    {
+      "id": "canteen-first",
+      "name": "第一食堂（丰泽食堂）",
+      "description": "校园中心区域最大的食堂，共三层，菜品种类丰富",
+      "floors": 3,
+      "features": ["大众餐饮", "特色小吃", "风味餐厅", "教工食堂"],
+      "recommendedDishes": ["麻辣香锅", "兰州拉面", "煲仔饭"],
+      "priceRange": "10-20元",
+      "openingHours": "早餐 6:30-8:30 / 午餐 11:00-13:00 / 晚餐 17:00-19:00",
+      "position": { "lng": 113.08, "lat": 28.183, "x": 380, "y": 550 },
+      "nearbyDormitories": ["芷兰学生公寓", "金岸学生公寓"],
+      "featured": true
+    },
+    {
+      "id": "canteen-second",
+      "name": "第二食堂（丰泽北食堂）",
+      "description": "位于丰泽学生公寓区附近，方便北区学生就餐",
+      "floors": 2,
+      "features": ["湘菜", "家常菜", "自选快餐"],
+      "priceRange": "8-15元",
+      "openingHours": "早餐 6:30-8:30 / 午餐 11:00-13:00 / 晚餐 17:00-19:00",
+      "position": { "lng": 113.083, "lat": 28.19, "x": 530, "y": 200 },
+      "nearbyDormitories": ["丰泽学生公寓"],
+      "featured": false
+    },
+    {
+      "id": "canteen-donghu",
+      "name": "东湖食堂",
+      "description": "东湖宿舍区食堂，环境优雅，可欣赏东湖风景",
+      "features": ["精致小炒", "面食", "湖景餐厅"],
+      "recommendedDishes": ["红烧牛肉面", "糖醋排骨"],
+      "priceRange": "12-25元",
+      "openingHours": "早餐 6:30-8:30 / 午餐 11:00-13:00 / 晚餐 17:00-19:00",
+      "position": { "lng": 113.087, "lat": 28.185, "x": 820, "y": 520 },
+      "nearbyDormitories": ["东湖学生公寓"],
+      "featured": true
+    },
+    {
+      "id": "canteen-muslim",
+      "name": "清真食堂",
+      "description": "校园清真餐厅，提供正宗清真美食",
+      "features": ["清真美食", "拉面", "大盘鸡", "烤肉饭"],
+      "priceRange": "10-20元",
+      "position": { "lng": 113.079, "lat": 28.184, "x": 360, "y": 530 },
+      "nearbyDormitories": ["芷兰学生公寓"],
+      "featured": false
+    },
+    {
+      "id": "canteen-snack",
+      "name": "校园美食街",
+      "description": "校内小型餐饮聚集区，提供各类小吃和饮品",
+      "features": ["奶茶", "炸鸡", "麻辣烫", "煎饼果子", "关东煮"],
+      "priceRange": "5-15元",
+      "position": { "lng": 113.081, "lat": 28.183, "x": 410, "y": 540 },
+      "nearbyDormitories": ["芷兰学生公寓"],
+      "featured": false
+    }
+  ]
+}

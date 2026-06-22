@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "title": "湖南农业大学校园地点数据",
+    "description": "湖南农业大学新生校园导览 - 结构化地点数据，可用于百度地图 AI 或其他地图系统",
+    "version": "1.0.0",
+    "coordinateSystem": {
+      "description": "坐标系统说明：lng/lat 为模拟经纬度，可替换为真实GPS坐标；x/y 为校园示意图相对坐标(0-1000)",
+      "mapOrigin": "校园示意图左上角为原点(0,0)，右下角为(1000,950)"
+    }
+  },
+  "locations": [
+    {
+      "id": "gate-south",
+      "name": "南校门（正门）",
+      "type": "gate",
+      "category": "campus",
+      "description": "湖南农业大学正门，位于农大路南端，是新生报到的主要入口",
+      "position": { "lng": 113.08, "lat": 28.18, "x": 500, "y": 850 },
+      "tags": ["主入口", "新生报到"],
+      "featured": true,
+      "icon": "🚪"
+    },
+    {
+      "id": "gate-east",
+      "name": "东校门",
+      "type": "gate",
+      "category": "campus",
+      "description": "东校门靠近东湖宿舍区和运动场",
+      "position": { "lng": 113.087, "lat": 28.183, "x": 850, "y": 550 },
+      "tags": ["侧门"],
+      "featured": false,
+      "icon": "🚪"
+    },
+    {
+      "id": "gate-west",
+      "name": "西校门",
+      "type": "gate",
+      "category": "campus",
+      "description": "西校门靠近金岸学生公寓，周边生活设施齐全",
+      "position": { "lng": 113.077, "lat": 28.185, "x": 150, "y": 600 },
+      "tags": ["侧门", "近宿舍"],
+      "featured": false,
+      "icon": "🚪"
+    },
+    {
+      "id": "gate-north",
+      "name": "北校门",
+      "type": "gate",
+      "category": "campus",
+      "description": "北校门靠近丰泽学生公寓",
+      "position": { "lng": 113.082, "lat": 28.19, "x": 480, "y": 150 },
+      "tags": ["侧门"],
+      "featured": false,
+      "icon": "🚪"
+    },
+    {
+      "id": "teach-main",
+      "name": "第一教学楼（主教学楼）",
+      "type": "teaching",
+      "category": "teaching",
+      "description": "位于校园中心区域的主教学楼，大部分公共课的上课地点",
+      "position": { "lng": 113.082, "lat": 28.184, "x": 450, "y": 400 },
+      "tags": ["主楼", "上课"],
+      "featured": true,
+      "icon": "🏫"
+    },
+    {
+      "id": "teach-second",
+      "name": "第二教学楼",
+      "type": "teaching",
+      "category": "teaching",
+      "description": "位于校园东侧，承担大量专业课教学任务",
+      "position": { "lng": 113.084, "lat": 28.183, "x": 650, "y": 420 },
+      "tags": ["上课"],
+      "featured": false,
+      "icon": "🏫"
+    },
+    {
+      "id": "teach-third",
+      "name": "第三教学楼",
+      "type": "teaching",
+      "category": "teaching",
+      "description": "实验教学楼，配备各专业实验室",
+      "position": { "lng": 113.085, "lat": 28.185, "x": 700, "y": 350 },
+      "tags": ["实验", "上课"],
+      "featured": false,
+      "icon": "🔬"
+    },
+    {
+      "id": "library-main",
+      "name": "湖南农业大学图书馆",
+      "type": "library",
+      "category": "campus",
+      "description": "校园标志性建筑，藏书丰富，是自习和阅读的最佳去处",
+      "position": { "lng": 113.081, "lat": 28.183, "x": 400, "y": 380 },
+      "tags": ["地标建筑", "自习", "新生必去"],
+      "featured": true,
+      "icon": "📚"
+    },
+    {
+      "id": "admin-main",
+      "name": "行政楼",
+      "type": "admin",
+      "category": "campus",
+      "description": "学校行政办公中心，办理学籍、证件等事务",
+      "position": { "lng": 113.08, "lat": 28.182, "x": 380, "y": 420 },
+      "tags": ["行政"],
+      "featured": false,
+      "icon": "🏢"
+    },
+    {
+      "id": "service-center",
+      "name": "学生服务中心",
+      "type": "service",
+      "category": "service",
+      "description": "一站式学生事务办理中心",
+      "position": { "lng": 113.081, "lat": 28.181, "x": 420, "y": 450 },
+      "tags": ["服务", "新生报到"],
+      "featured": true,
+      "icon": "🏪"
+    },
+    {
+      "id": "health-center",
+      "name": "校医院",
+      "type": "service",
+      "category": "service",
+      "description": "校园医疗服务中心",
+      "position": { "lng": 113.083, "lat": 28.181, "x": 550, "y": 500 },
+      "tags": ["医疗"],
+      "featured": false,
+      "icon": "🏥"
+    },
+    {
+      "id": "sports-stadium",
+      "name": "东田径场（主体育场）",
+      "type": "sports",
+      "category": "sports",
+      "description": "学校主体育场，400米标准跑道",
+      "position": { "lng": 113.086, "lat": 28.183, "x": 780, "y": 450 },
+      "tags": ["主场", "军训", "新生必去"],
+      "featured": true,
+      "icon": "🏟️"
+    },
+    {
+      "id": "sports-gym",
+      "name": "体育馆",
+      "type": "sports",
+      "category": "sports",
+      "description": "室内综合体育馆",
+      "position": { "lng": 113.082, "lat": 28.183, "x": 500, "y": 440 },
+      "tags": ["室内", "健身"],
+      "featured": false,
+      "icon": "🏋️"
+    },
+    {
+      "id": "lake-east",
+      "name": "东湖",
+      "type": "landscape",
+      "category": "campus",
+      "description": "校园东侧的湖泊景观，环境优美",
+      "position": { "lng": 113.088, "lat": 28.186, "x": 900, "y": 400 },
+      "tags": ["校园景观"],
+      "featured": true,
+      "icon": "🌊"
+    }
+  ]
+}

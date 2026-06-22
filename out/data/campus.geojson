@@ -1,0 +1,254 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "湖南农业大学校园地点 GeoJSON",
+    "description": "湖南农业大学校园导览地点数据 - GeoJSON 格式，可用于 Leaflet、MapLibre、百度地图等地图系统",
+    "version": "1.0.0",
+    "coordinateNote": "经纬度为模拟值，替换为真实 GPS 坐标后即可直接用于地图展示"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "gate-south",
+      "geometry": { "type": "Point", "coordinates": [113.08, 28.18] },
+      "properties": {
+        "name": "南校门（正门）",
+        "nameZh": "南校门（正门）",
+        "category": "campus",
+        "type": "gate",
+        "description": "湖南农业大学正门，位于农大路南端，是新生报到的主要入口",
+        "tags": ["主入口", "新生报到"],
+        "featured": true,
+        "icon": "🚪"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gate-east",
+      "geometry": { "type": "Point", "coordinates": [113.087, 28.183] },
+      "properties": {
+        "name": "东校门",
+        "category": "campus", "type": "gate",
+        "description": "东校门靠近东湖宿舍区和运动场",
+        "tags": ["侧门"],
+        "featured": false, "icon": "🚪"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gate-west",
+      "geometry": { "type": "Point", "coordinates": [113.077, 28.185] },
+      "properties": {
+        "name": "西校门",
+        "category": "campus", "type": "gate",
+        "description": "西校门靠近金岸学生公寓",
+        "tags": ["侧门", "近宿舍"],
+        "featured": false, "icon": "🚪"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gate-north",
+      "geometry": { "type": "Point", "coordinates": [113.082, 28.19] },
+      "properties": {
+        "name": "北校门",
+        "category": "campus", "type": "gate",
+        "description": "北校门靠近丰泽学生公寓",
+        "tags": ["侧门"],
+        "featured": false, "icon": "🚪"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "teach-main",
+      "geometry": { "type": "Point", "coordinates": [113.082, 28.184] },
+      "properties": {
+        "name": "第一教学楼（主教学楼）",
+        "category": "teaching", "type": "teaching",
+        "description": "位于校园中心区域的主教学楼，大部分公共课的上课地点",
+        "tags": ["主楼", "上课"],
+        "featured": true, "icon": "🏫"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "teach-second",
+      "geometry": { "type": "Point", "coordinates": [113.084, 28.183] },
+      "properties": {
+        "name": "第二教学楼",
+        "category": "teaching", "type": "teaching",
+        "description": "位于校园东侧，承担大量专业课教学任务",
+        "tags": ["上课"],
+        "featured": false, "icon": "🏫"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "library-main",
+      "geometry": { "type": "Point", "coordinates": [113.081, 28.183] },
+      "properties": {
+        "name": "湖南农业大学图书馆",
+        "category": "campus", "type": "library",
+        "description": "校园标志性建筑，藏书丰富，是自习和阅读的最佳去处",
+        "tags": ["地标建筑", "自习", "新生必去"],
+        "featured": true, "icon": "📚"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "service-center",
+      "geometry": { "type": "Point", "coordinates": [113.081, 28.181] },
+      "properties": {
+        "name": "学生服务中心",
+        "category": "service", "type": "service",
+        "description": "一站式学生事务办理中心",
+        "tags": ["服务", "新生报到"],
+        "featured": true, "icon": "🏪"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sports-stadium",
+      "geometry": { "type": "Point", "coordinates": [113.086, 28.183] },
+      "properties": {
+        "name": "东田径场（主体育场）",
+        "category": "sports", "type": "sports",
+        "description": "学校主体育场，400米标准跑道",
+        "tags": ["主场", "军训", "新生必去"],
+        "featured": true, "icon": "🏟️"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sports-gym",
+      "geometry": { "type": "Point", "coordinates": [113.082, 28.183] },
+      "properties": {
+        "name": "体育馆",
+        "category": "sports", "type": "sports",
+        "description": "室内综合体育馆",
+        "tags": ["室内", "健身"],
+        "featured": false, "icon": "🏋️"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lake-east",
+      "geometry": { "type": "Point", "coordinates": [113.088, 28.186] },
+      "properties": {
+        "name": "东湖",
+        "category": "campus", "type": "landscape",
+        "description": "校园东侧的湖泊景观，环境优美",
+        "tags": ["校园景观"],
+        "featured": true, "icon": "🌊"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dorm-fengze-1",
+      "geometry": { "type": "Point", "coordinates": [113.082, 28.189] },
+      "properties": {
+        "name": "丰泽学生公寓 1 栋",
+        "category": "dormitory", "type": "dormitory",
+        "description": "丰泽学生公寓区，位于校园北侧，4人间标准宿舍",
+        "tags": ["丰泽区", "本科生", "4人间"],
+        "featured": true, "icon": "🏠"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dorm-jinan-1",
+      "geometry": { "type": "Point", "coordinates": [113.078, 28.184] },
+      "properties": {
+        "name": "金岸学生公寓 1 栋",
+        "category": "dormitory", "type": "dormitory",
+        "description": "金岸学生公寓区，位于校园西侧，靠近西校门，生活便利",
+        "tags": ["金岸区", "本科生", "生活便利"],
+        "featured": true, "icon": "🏠"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dorm-donghu-1",
+      "geometry": { "type": "Point", "coordinates": [113.086, 28.184] },
+      "properties": {
+        "name": "东湖学生公寓 1 栋",
+        "category": "dormitory", "type": "dormitory",
+        "description": "东湖学生公寓区，靠近东湖景观和运动场",
+        "tags": ["东湖区", "风景好"],
+        "featured": true, "icon": "🏠"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dorm-zhiyuan",
+      "geometry": { "type": "Point", "coordinates": [113.081, 28.182] },
+      "properties": {
+        "name": "芷兰学生公寓",
+        "category": "dormitory", "type": "dormitory",
+        "description": "芷兰学生公寓区，位于校园中心偏南，交通最便利",
+        "tags": ["芷兰区", "中心位置", "新生推荐"],
+        "featured": true, "icon": "🏠"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "canteen-first",
+      "geometry": { "type": "Point", "coordinates": [113.08, 28.183] },
+      "properties": {
+        "name": "第一食堂（丰泽食堂）",
+        "category": "canteen", "type": "canteen",
+        "description": "校园中心区域最大的食堂，共三层，菜品种类丰富",
+        "tags": ["主食堂", "大型", "新生首选"],
+        "featured": true, "icon": "🍽️"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "canteen-second",
+      "geometry": { "type": "Point", "coordinates": [113.083, 28.19] },
+      "properties": {
+        "name": "第二食堂（丰泽北食堂）",
+        "category": "canteen", "type": "canteen",
+        "description": "位于丰泽学生公寓区附近",
+        "tags": ["北区", "家常菜"],
+        "featured": false, "icon": "🍽️"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "canteen-donghu",
+      "geometry": { "type": "Point", "coordinates": [113.087, 28.185] },
+      "properties": {
+        "name": "东湖食堂",
+        "category": "canteen", "type": "canteen",
+        "description": "东湖宿舍区食堂，环境优雅",
+        "tags": ["湖景", "品质好"],
+        "featured": true, "icon": "🍽️"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "food-xiangwei",
+      "geometry": { "type": "Point", "coordinates": [113.08, 28.179] },
+      "properties": {
+        "name": "湘味人家",
+        "category": "food", "type": "restaurant",
+        "description": "地道湘菜馆，人均30元，学生聚餐首选",
+        "tags": ["湘菜", "性价比高", "适合聚餐"],
+        "featured": true, "icon": "🍛"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "food-cha",
+      "geometry": { "type": "Point", "coordinates": [113.08, 28.178] },
+      "properties": {
+        "name": "茶颜悦色（农大店）",
+        "category": "food", "type": "snack",
+        "description": "长沙网红奶茶品牌，人均18元",
+        "tags": ["奶茶", "必打卡"],
+        "featured": true, "icon": "🧋"
+      }
+    }
+  ]
+}

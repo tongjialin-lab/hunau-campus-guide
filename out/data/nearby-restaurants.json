@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "title": "湖南农业大学周边美食数据",
+    "description": "湖南农业大学附近值得推荐的饭店和美食点位",
+    "version": "1.0.0",
+    "note": "数据为模拟数据，后续可替换为真实饭店信息"
+  },
+  "areas": [
+    {
+      "name": "南校门 / 红旗路",
+      "description": "美食最集中的区域，距离南校门步行5分钟内",
+      "restaurants": [
+        {
+          "id": "food-xiangwei",
+          "name": "湘味人家",
+          "type": "湘菜馆",
+          "description": "地道湘菜馆，性价比高，人均30元，是学生聚餐首选",
+          "recommendedDishes": ["剁椒鱼头", "小炒肉", "酸豆角炒肉末"],
+          "priceRange": "25-40元",
+          "rating": 5,
+          "position": { "lng": 113.08, "lat": 28.179, "x": 500, "y": 880 },
+          "featured": true
+        },
+        {
+          "id": "food-chongqing",
+          "name": "重庆鸡公煲",
+          "type": "火锅/煲类",
+          "description": "人气超高的鸡公煲专门店，人均25元，麻辣鲜香",
+          "priceRange": "20-35元",
+          "rating": 5,
+          "position": { "lng": 113.08, "lat": 28.178, "x": 490, "y": 900 },
+          "featured": true
+        },
+        {
+          "id": "food-lanzhou",
+          "name": "兰州拉面馆",
+          "type": "面馆",
+          "description": "正宗西北风味拉面，人均12元，实惠管饱",
+          "priceRange": "10-18元",
+          "rating": 4,
+          "position": { "lng": 113.079, "lat": 28.179, "x": 470, "y": 890 },
+          "featured": false
+        },
+        {
+          "id": "food-cha",
+          "name": "茶颜悦色（农大店）",
+          "type": "奶茶饮品",
+          "description": "长沙网红奶茶品牌，南校门外就有，人均18元",
+          "recommendedDishes": ["声声乌龙", "幽兰拿铁"],
+          "priceRange": "15-22元",
+          "rating": 5,
+          "position": { "lng": 113.08, "lat": 28.178, "x": 510, "y": 895 },
+          "featured": true
+        },
+        {
+          "id": "food-bbq",
+          "name": "东北烧烤",
+          "type": "烧烤",
+          "description": "东北风味烧烤，晚上人气很旺，人均40元",
+          "priceRange": "30-50元",
+          "rating": 4,
+          "position": { "lng": 113.079, "lat": 28.178, "x": 460, "y": 910 },
+          "featured": false
+        },
+        {
+          "id": "food-market",
+          "name": "红旗市场",
+          "type": "综合市场",
+          "description": "南校门外综合市场，有小吃、水果、日用品等",
+          "priceRange": "不等",
+          "rating": 5,
+          "position": { "lng": 113.081, "lat": 28.179, "x": 520, "y": 870 },
+          "featured": true
+        }
+      ]
+    },
+    {
+      "name": "西校门 / 金岸",
+      "description": "靠近金岸学生公寓区，步行约5分钟",
+      "restaurants": [
+        {
+          "id": "food-malatang",
+          "name": "杨国福麻辣烫",
+          "type": "麻辣烫",
+          "description": "连锁麻辣烫品牌，菜品新鲜，人均20元",
+          "priceRange": "15-25元",
+          "rating": 4,
+          "position": { "lng": 113.076, "lat": 28.186, "x": 120, "y": 580 },
+          "featured": false
+        },
+        {
+          "id": "food-chaomifeng",
+          "name": "长沙炒米粉",
+          "type": "长沙小吃",
+          "description": "长沙特色炒米粉老店，人均8元，便宜好吃",
+          "priceRange": "6-12元",
+          "rating": 4,
+          "position": { "lng": 113.077, "lat": 28.185, "x": 150, "y": 610 },
+          "featured": true
+        }
+      ]
+    },
+    {
+      "name": "东校门 / 东湖",
+      "description": "靠近东湖学生公寓区，步行约10分钟",
+      "restaurants": [
+        {
+          "id": "food-hotpot",
+          "name": "小龙坎老火锅（农大店）",
+          "type": "火锅",
+          "description": "知名火锅连锁品牌，人均70元，适合聚会庆祝",
+          "priceRange": "60-90元",
+          "rating": 4,
+          "position": { "lng": 113.089, "lat": 28.184, "x": 920, "y": 540 },
+          "featured": false
+        },
+        {
+          "id": "food-fried-chicken",
+          "name": "叫了只炸鸡",
+          "type": "炸鸡外卖",
+          "description": "人气炸鸡外卖店，人均20元，适合宿舍聚餐",
+          "priceRange": "18-30元",
+          "rating": 4,
+          "position": { "lng": 113.089, "lat": 28.185, "x": 910, "y": 520 },
+          "featured": false
+        }
+      ]
+    }
+  ]
+}
